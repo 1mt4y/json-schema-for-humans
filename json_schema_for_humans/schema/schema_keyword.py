@@ -13,6 +13,7 @@ class SchemaKeyword(Enum):
     ADDITIONAL_ITEMS = "additionalItems"
     MAX_ITEMS = "maxItems"
     MIN_ITEMS = "minItems"
+    MIN_PROPERTIES = "minProperties"
     MAX_LENGTH = "maxLength"
     MIN_LENGTH = "minLength"
     MULTIPLE_OF = "multipleOf"

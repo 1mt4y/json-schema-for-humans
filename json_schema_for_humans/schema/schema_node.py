@@ -434,6 +434,10 @@ class SchemaNode:
     @property
     def kw_min_items(self) -> Optional["SchemaNode"]:
         return self.get_keyword(SchemaKeyword.MIN_ITEMS)
+    
+    @property
+    def kw_min_properties(self) -> Optional["SchemaNode"]:
+        return self.get_keyword(SchemaKeyword.MIN_PROPERTIES)
 
     @property
     def kw_max_items(self) -> Optional["SchemaNode"]:
